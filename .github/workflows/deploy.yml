@@ -1,4 +1,4 @@
-name: Deploy HostApp
+name: Deploy Hostapp
 
 on:
   push:
@@ -36,7 +36,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular app
-        run: npx ng build --configuration production --base-href /hostApp/
+        run: npx ng build --configuration production --base-href /hostapp/
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -44,7 +44,7 @@ jobs:
       - name: Upload build
         uses: actions/upload-pages-artifact@v4
         with:
-          path: dist/hostApp/browser
+          path: dist/hostapp/browser
 
       - name: Deploy
         id: deployment
