@@ -44,7 +44,7 @@ jobs:
       - name: Upload build
         uses: actions/upload-pages-artifact@v4
         with:
-          path: dist/hostapp/browser
+          path: dist/hostApp/browser
 
       - name: Deploy
         id: deployment
