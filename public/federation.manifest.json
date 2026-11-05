@@ -1,4 +1,4 @@
 {
-    "remoteApp1": "http://localhost:4201/remoteEntry.json",
-    "remoteApp2": "http://localhost:4202/remoteEntry.json"
+    "remoteApp1": "https://vinod-kumar-h.github.io/remoteApp1/remoteEntry.json",
+    "remoteApp2": "https://vinod-kumar-h.github.io/remoteApp2/remoteEntry.json"
 }
